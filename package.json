@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack -p"
   },
   "author": "Juan Manuel Sánchez Lozano <juanmsl_pk@hotmail.com> (https://juanmsl.github.io/)",
   "license": "GPL-3.0",
